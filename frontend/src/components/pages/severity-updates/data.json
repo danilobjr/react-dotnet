@@ -1,0 +1,730 @@
+[
+  {
+    "alias": "2016-Apr",
+    "currentReleaseDate": "2018-04-10T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Apr",
+    "documentTitle": "April 2016 Security Updates",
+    "id": "2016-Apr",
+    "initialReleaseDate": "2016-04-12T07:00:00Z"
+  },
+  {
+    "alias": "2016-Aug",
+    "currentReleaseDate": "2017-09-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Aug",
+    "documentTitle": "August 2016 Security Updates",
+    "id": "2016-Aug",
+    "initialReleaseDate": "2016-08-09T07:00:00Z"
+  },
+  {
+    "alias": "2016-Dec",
+    "currentReleaseDate": "2018-07-10T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Dec",
+    "documentTitle": "December 2016 Security Updates",
+    "id": "2016-Dec",
+    "initialReleaseDate": "2016-12-13T08:00:00Z"
+  },
+  {
+    "alias": "2016-Jan",
+    "currentReleaseDate": "2016-05-25T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Jan",
+    "documentTitle": "January 2016 Security Updates",
+    "id": "2016-Jan",
+    "initialReleaseDate": "2016-01-12T08:00:00Z"
+  },
+  {
+    "alias": "2016-Jul",
+    "currentReleaseDate": "2017-09-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Jul",
+    "documentTitle": "July 2016 Security Updates",
+    "id": "2016-Jul",
+    "initialReleaseDate": "2016-07-12T07:00:00Z"
+  },
+  {
+    "alias": "2016-Jun",
+    "currentReleaseDate": "2017-05-18T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Jun",
+    "documentTitle": "June 2016 Security Updates",
+    "id": "2016-Jun",
+    "initialReleaseDate": "2016-06-14T07:00:00Z"
+  },
+  {
+    "alias": "2016-May",
+    "currentReleaseDate": "2017-05-17T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-May",
+    "documentTitle": "May 2016 Security Updates",
+    "id": "2016-May",
+    "initialReleaseDate": "2016-05-10T07:00:00Z"
+  },
+  {
+    "alias": "2016-Nov",
+    "currentReleaseDate": "2020-05-27T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Nov",
+    "documentTitle": "November 2016 Security Updates",
+    "id": "2016-Nov",
+    "initialReleaseDate": "2016-11-08T08:00:00Z"
+  },
+  {
+    "alias": "2016-Oct",
+    "currentReleaseDate": "2017-09-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Oct",
+    "documentTitle": "October 2016 Security Updates",
+    "id": "2016-Oct",
+    "initialReleaseDate": "2016-10-11T07:00:00Z"
+  },
+  {
+    "alias": "2016-Sep",
+    "currentReleaseDate": "2017-07-11T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2016-Sep",
+    "documentTitle": "September 2016 Security Updates",
+    "id": "2016-Sep",
+    "initialReleaseDate": "2016-09-13T07:00:00Z"
+  },
+  {
+    "alias": "2017-Apr",
+    "currentReleaseDate": "2017-09-13T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Apr",
+    "documentTitle": "April 2017 Security Updates",
+    "id": "2017-Apr",
+    "initialReleaseDate": "2017-04-11T07:00:00Z"
+  },
+  {
+    "alias": "2017-Aug",
+    "currentReleaseDate": "2020-05-27T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Aug",
+    "documentTitle": "August 2017 Security Updates",
+    "id": "2017-Aug",
+    "initialReleaseDate": "2017-08-08T07:00:00Z"
+  },
+  {
+    "alias": "2017-Dec",
+    "currentReleaseDate": "2022-01-11T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Dec",
+    "documentTitle": "December 2017 Security Updates",
+    "id": "2017-Dec",
+    "initialReleaseDate": "2017-12-12T08:00:00Z"
+  },
+  {
+    "alias": "2017-Feb",
+    "currentReleaseDate": "2017-04-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Feb",
+    "documentTitle": "February 2017 Security Updates",
+    "id": "2017-Feb",
+    "initialReleaseDate": "2017-02-21T08:00:00Z"
+  },
+  {
+    "alias": "2017-Jan",
+    "currentReleaseDate": "2017-04-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Jan",
+    "documentTitle": "January 2017 Security Updates",
+    "id": "2017-Jan",
+    "initialReleaseDate": "2017-01-10T08:00:00Z"
+  },
+  {
+    "alias": "2017-Jul",
+    "currentReleaseDate": "2017-11-09T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Jul",
+    "documentTitle": "July 2017 Security Updates",
+    "id": "2017-Jul",
+    "initialReleaseDate": "2017-07-11T07:00:00Z"
+  },
+  {
+    "alias": "2017-Jun",
+    "currentReleaseDate": "2019-06-11T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Jun",
+    "documentTitle": "June 2017 Security Updates",
+    "id": "2017-Jun",
+    "initialReleaseDate": "2017-06-13T07:00:00Z"
+  },
+  {
+    "alias": "2017-Mar",
+    "currentReleaseDate": "2017-08-08T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Mar",
+    "documentTitle": "March 2017 Security Updates",
+    "id": "2017-Mar",
+    "initialReleaseDate": "2017-03-14T07:00:00Z"
+  },
+  {
+    "alias": "2017-May",
+    "currentReleaseDate": "2018-03-14T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-May",
+    "documentTitle": "May 2017 Security Updates",
+    "id": "2017-May",
+    "initialReleaseDate": "2017-05-09T07:00:00Z"
+  },
+  {
+    "alias": "2017-May-B",
+    "currentReleaseDate": "2017-05-08T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-May-B",
+    "documentTitle": "May 8 2017 Security Updates",
+    "id": "2017-May-B",
+    "initialReleaseDate": "2017-05-08T07:00:00Z"
+  },
+  {
+    "alias": "2017-Nov",
+    "currentReleaseDate": "2017-12-12T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Nov",
+    "documentTitle": "November 2017 Security Updates",
+    "id": "2017-Nov",
+    "initialReleaseDate": "2017-11-14T08:00:00Z"
+  },
+  {
+    "alias": "2017-Oct",
+    "currentReleaseDate": "2021-04-06T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Oct",
+    "documentTitle": "October 2017 Security Updates",
+    "id": "2017-Oct",
+    "initialReleaseDate": "2017-10-10T07:00:00Z"
+  },
+  {
+    "alias": "2017-Sep",
+    "currentReleaseDate": "2019-12-04T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2017-Sep",
+    "documentTitle": "September 2017 Security Updates",
+    "id": "2017-Sep",
+    "initialReleaseDate": "2017-09-12T07:00:00Z"
+  },
+  {
+    "alias": "2018-Apr",
+    "currentReleaseDate": "2018-06-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Apr",
+    "documentTitle": "April 2018 Security Updates",
+    "id": "2018-Apr",
+    "initialReleaseDate": "2018-04-10T07:00:00Z"
+  },
+  {
+    "alias": "2018-Aug",
+    "currentReleaseDate": "2020-05-27T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Aug",
+    "documentTitle": "August 2018 Security Updates",
+    "id": "2018-Aug",
+    "initialReleaseDate": "2018-08-14T07:00:00Z"
+  },
+  {
+    "alias": "2018-Dec",
+    "currentReleaseDate": "2019-10-08T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Dec",
+    "documentTitle": "December 2018 Security Updates",
+    "id": "2018-Dec",
+    "initialReleaseDate": "2018-12-11T08:00:00Z"
+  },
+  {
+    "alias": "2018-FEB",
+    "currentReleaseDate": "2019-12-10T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-FEB",
+    "documentTitle": "February 2018 Security Updates",
+    "id": "2018-FEB",
+    "initialReleaseDate": "2018-02-13T08:00:00Z"
+  },
+  {
+    "alias": "2018-Jan",
+    "currentReleaseDate": "2019-06-14T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Jan",
+    "documentTitle": "January 2018 Security Updates",
+    "id": "2018-Jan",
+    "initialReleaseDate": "2018-01-09T08:00:00Z"
+  },
+  {
+    "alias": "2018-Jul",
+    "currentReleaseDate": "2018-12-11T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Jul",
+    "documentTitle": "July 2018 Security Updates",
+    "id": "2018-Jul",
+    "initialReleaseDate": "2018-07-10T07:00:00Z"
+  },
+  {
+    "alias": "2018-Jun",
+    "currentReleaseDate": "2020-02-11T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Jun",
+    "documentTitle": "June 2018 Security Updates",
+    "id": "2018-Jun",
+    "initialReleaseDate": "2018-06-12T07:00:00Z"
+  },
+  {
+    "alias": "2018-Mar",
+    "currentReleaseDate": "2020-05-12T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Mar",
+    "documentTitle": "March 2018 Security Updates",
+    "id": "2018-Mar",
+    "initialReleaseDate": "2018-03-13T07:00:00Z"
+  },
+  {
+    "alias": "2018-May",
+    "currentReleaseDate": "2019-01-08T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-May",
+    "documentTitle": "May 2018 Security Updates",
+    "id": "2018-May",
+    "initialReleaseDate": "2018-05-08T07:00:00Z"
+  },
+  {
+    "alias": "2018-Nov",
+    "currentReleaseDate": "2019-01-15T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Nov",
+    "documentTitle": "November 2018 Security Updates",
+    "id": "2018-Nov",
+    "initialReleaseDate": "2018-11-13T08:00:00Z"
+  },
+  {
+    "alias": "2018-Oct",
+    "currentReleaseDate": "2018-11-01T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Oct",
+    "documentTitle": "October 2018 Security Updates",
+    "id": "2018-Oct",
+    "initialReleaseDate": "2018-10-09T07:00:00Z"
+  },
+  {
+    "alias": "2018-Sep",
+    "currentReleaseDate": "2021-01-12T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2018-Sep",
+    "documentTitle": "September 2018 Security Updates",
+    "id": "2018-Sep",
+    "initialReleaseDate": "2018-09-11T07:00:00Z"
+  },
+  {
+    "alias": "2019-Apr",
+    "currentReleaseDate": "2019-12-10T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Apr",
+    "documentTitle": "April 2019 Security Updates",
+    "id": "2019-Apr",
+    "initialReleaseDate": "2019-04-09T07:00:00Z"
+  },
+  {
+    "alias": "2019-Aug",
+    "currentReleaseDate": "2023-08-08T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Aug",
+    "documentTitle": "August 2019 Security Updates",
+    "id": "2019-Aug",
+    "initialReleaseDate": "2019-08-13T07:00:00Z"
+  },
+  {
+    "alias": "2019-Dec",
+    "currentReleaseDate": "2020-07-23T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Dec",
+    "documentTitle": "December 2019 Security Updates",
+    "id": "2019-Dec",
+    "initialReleaseDate": "2019-12-10T08:00:00Z"
+  },
+  {
+    "alias": "2019-Feb",
+    "currentReleaseDate": "2019-12-19T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Feb",
+    "documentTitle": "February 2019 Security Updates",
+    "id": "2019-Feb",
+    "initialReleaseDate": "2019-02-12T08:00:00Z"
+  },
+  {
+    "alias": "2019-Jan",
+    "currentReleaseDate": "2019-12-19T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Jan",
+    "documentTitle": "January 2019 Security Updates",
+    "id": "2019-Jan",
+    "initialReleaseDate": "2019-01-08T08:00:00Z"
+  },
+  {
+    "alias": "2019-Jul",
+    "currentReleaseDate": "2021-12-14T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Jul",
+    "documentTitle": "July 2019 Security Updates",
+    "id": "2019-Jul",
+    "initialReleaseDate": "2019-07-09T07:00:00Z"
+  },
+  {
+    "alias": "2019-Jun",
+    "currentReleaseDate": "2020-03-10T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Jun",
+    "documentTitle": "June 2019 Security Updates",
+    "id": "2019-Jun",
+    "initialReleaseDate": "2019-06-11T07:00:00Z"
+  },
+  {
+    "alias": "2019-Mar",
+    "currentReleaseDate": "2019-09-10T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Mar",
+    "documentTitle": "March 2019 Security Updates",
+    "id": "2019-Mar",
+    "initialReleaseDate": "2019-03-12T07:00:00Z"
+  },
+  {
+    "alias": "2019-May",
+    "currentReleaseDate": "2020-03-25T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-May",
+    "documentTitle": "May 2019 Security Updates",
+    "id": "2019-May",
+    "initialReleaseDate": "2019-05-14T07:00:00Z"
+  },
+  {
+    "alias": "2019-Nov",
+    "currentReleaseDate": "2020-02-03T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Nov",
+    "documentTitle": "November 2019 Security Updates",
+    "id": "2019-Nov",
+    "initialReleaseDate": "2019-11-12T08:00:00Z"
+  },
+  {
+    "alias": "2019-Oct",
+    "currentReleaseDate": "2020-01-31T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Oct",
+    "documentTitle": "October 2019 Security Updates",
+    "id": "2019-Oct",
+    "initialReleaseDate": "2019-10-08T07:00:00Z"
+  },
+  {
+    "alias": "2019-Sep",
+    "currentReleaseDate": "2020-01-14T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2019-Sep",
+    "documentTitle": "September 2019 Security Updates",
+    "id": "2019-Sep",
+    "initialReleaseDate": "2019-09-10T07:00:00Z"
+  },
+  {
+    "alias": "2020-Apr",
+    "currentReleaseDate": "2021-06-08T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Apr",
+    "documentTitle": "April 2020 Security Updates",
+    "id": "2020-Apr",
+    "initialReleaseDate": "2020-04-14T07:00:00Z"
+  },
+  {
+    "alias": "2020-Aug",
+    "currentReleaseDate": "2020-08-28T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Aug",
+    "documentTitle": "August 2020 Security Updates",
+    "id": "2020-Aug",
+    "initialReleaseDate": "2020-08-11T07:00:00Z"
+  },
+  {
+    "alias": "2020-Dec",
+    "currentReleaseDate": "2020-12-24T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Dec",
+    "documentTitle": "December 2020 Security Updates",
+    "id": "2020-Dec",
+    "initialReleaseDate": "2020-12-08T08:00:00Z"
+  },
+  {
+    "alias": "2020-Feb",
+    "currentReleaseDate": "2022-11-15T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Feb",
+    "documentTitle": "February 2020 Security Updates",
+    "id": "2020-Feb",
+    "initialReleaseDate": "2020-02-11T08:00:00Z"
+  },
+  {
+    "alias": "2020-Jan",
+    "currentReleaseDate": "2020-06-25T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Jan",
+    "documentTitle": "January 2020 Security Updates",
+    "id": "2020-Jan",
+    "initialReleaseDate": "2020-01-14T08:00:00Z"
+  },
+  {
+    "alias": "2020-Jul",
+    "currentReleaseDate": "2023-01-10T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Jul",
+    "documentTitle": "July 2020 Security Updates",
+    "id": "2020-Jul",
+    "initialReleaseDate": "2020-07-14T07:00:00Z"
+  },
+  {
+    "alias": "2020-Jun",
+    "currentReleaseDate": "2021-04-20T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Jun",
+    "documentTitle": "June 2020 Security Updates",
+    "id": "2020-Jun",
+    "initialReleaseDate": "2020-06-09T07:00:00Z"
+  },
+  {
+    "alias": "2020-Mar",
+    "currentReleaseDate": "2021-08-10T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Mar",
+    "documentTitle": "March 2020 Security Updates",
+    "id": "2020-Mar",
+    "initialReleaseDate": "2020-03-10T07:00:00Z"
+  },
+  {
+    "alias": "2020-May",
+    "currentReleaseDate": "2021-02-25T08:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-May",
+    "documentTitle": "May 2020 Security Updates",
+    "id": "2020-May",
+    "initialReleaseDate": "2020-05-12T07:00:00Z"
+  },
+  {
+    "alias": "2020-Nov",
+    "currentReleaseDate": "2020-11-20T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Nov",
+    "documentTitle": "November 2020 Security Updates",
+    "id": "2020-Nov",
+    "initialReleaseDate": "2020-11-10T08:00:00Z"
+  },
+  {
+    "alias": "2020-Oct",
+    "currentReleaseDate": "2020-10-27T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Oct",
+    "documentTitle": "October 2020 Security Updates",
+    "id": "2020-Oct",
+    "initialReleaseDate": "2020-10-13T07:00:00Z"
+  },
+  {
+    "alias": "2020-Sep",
+    "currentReleaseDate": "2020-09-30T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2020-Sep",
+    "documentTitle": "September 2020 Security Updates",
+    "id": "2020-Sep",
+    "initialReleaseDate": "2020-09-08T07:00:00Z"
+  },
+  {
+    "alias": "2021-Apr",
+    "currentReleaseDate": "2023-05-09T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Apr",
+    "documentTitle": "April 2021 Security Updates",
+    "id": "2021-Apr",
+    "initialReleaseDate": "2021-04-13T07:00:00Z"
+  },
+  {
+    "alias": "2021-Aug",
+    "currentReleaseDate": "2021-08-20T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Aug",
+    "documentTitle": "August 2021 Security Updates",
+    "id": "2021-Aug",
+    "initialReleaseDate": "2021-08-10T07:00:00Z"
+  },
+  {
+    "alias": "2021-Dec",
+    "currentReleaseDate": "2021-12-28T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Dec",
+    "documentTitle": "December 2021 Security Updates",
+    "id": "2021-Dec",
+    "initialReleaseDate": "2021-12-14T08:00:00Z"
+  },
+  {
+    "alias": "2021-Feb",
+    "currentReleaseDate": "2021-02-27T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Feb",
+    "documentTitle": "February 2021 Security Updates",
+    "id": "2021-Feb",
+    "initialReleaseDate": "2021-02-09T08:00:00Z"
+  },
+  {
+    "alias": "2021-Jan",
+    "currentReleaseDate": "2021-01-30T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Jan",
+    "documentTitle": "January 2021 Security Updates",
+    "id": "2021-Jan",
+    "initialReleaseDate": "2021-01-12T08:00:00Z"
+  },
+  {
+    "alias": "2021-Jul",
+    "currentReleaseDate": "2023-06-13T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Jul",
+    "documentTitle": "July 2021 Security Updates",
+    "id": "2021-Jul",
+    "initialReleaseDate": "2021-07-13T07:00:00Z"
+  },
+  {
+    "alias": "2021-Jun",
+    "currentReleaseDate": "2023-08-17T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Jun",
+    "documentTitle": "June 2021 Security Updates",
+    "id": "2021-Jun",
+    "initialReleaseDate": "2021-06-08T07:00:00Z"
+  },
+  {
+    "alias": "2021-Mar",
+    "currentReleaseDate": "2023-07-21T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Mar",
+    "documentTitle": "March 2021 Security Updates",
+    "id": "2021-Mar",
+    "initialReleaseDate": "2021-03-09T08:00:00Z"
+  },
+  {
+    "alias": "2021-May",
+    "currentReleaseDate": "2023-08-01T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-May",
+    "documentTitle": "May 2021 Security Updates",
+    "id": "2021-May",
+    "initialReleaseDate": "2021-05-11T07:00:00Z"
+  },
+  {
+    "alias": "2021-Nov",
+    "currentReleaseDate": "2021-11-27T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Nov",
+    "documentTitle": "November 2021 Security Updates",
+    "id": "2021-Nov",
+    "initialReleaseDate": "2021-11-09T08:00:00Z"
+  },
+  {
+    "alias": "2021-Oct",
+    "currentReleaseDate": "2023-08-01T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Oct",
+    "documentTitle": "October 2021 Security Updates",
+    "id": "2021-Oct",
+    "initialReleaseDate": "2021-10-12T07:00:00Z"
+  },
+  {
+    "alias": "2021-Sep",
+    "currentReleaseDate": "2022-08-16T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2021-Sep",
+    "documentTitle": "September 2021 Security Updates",
+    "id": "2021-Sep",
+    "initialReleaseDate": "2021-09-14T07:00:00Z"
+  },
+  {
+    "alias": "2022-Apr",
+    "currentReleaseDate": "2023-08-01T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Apr",
+    "documentTitle": "April 2022 Security Updates",
+    "id": "2022-Apr",
+    "initialReleaseDate": "2022-04-12T08:00:00Z"
+  },
+  {
+    "alias": "2022-Aug",
+    "currentReleaseDate": "2023-04-11T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Aug",
+    "documentTitle": "August 2022 Security Updates",
+    "id": "2022-Aug",
+    "initialReleaseDate": "2022-08-09T07:00:00Z"
+  },
+  {
+    "alias": "2022-Dec",
+    "currentReleaseDate": "2023-06-30T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Dec",
+    "documentTitle": "December 2022 Security Updates",
+    "id": "2022-Dec",
+    "initialReleaseDate": "2022-12-13T08:00:00Z"
+  },
+  {
+    "alias": "2022-Feb",
+    "currentReleaseDate": "2022-03-23T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Feb",
+    "documentTitle": "February 2022 Security Updates",
+    "id": "2022-Feb",
+    "initialReleaseDate": "2022-02-08T08:00:00Z"
+  },
+  {
+    "alias": "2022-Jan",
+    "currentReleaseDate": "2023-05-09T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Jan",
+    "documentTitle": "January 2022 Security Updates",
+    "id": "2022-Jan",
+    "initialReleaseDate": "2022-01-11T08:00:00Z"
+  },
+  {
+    "alias": "2022-Jul",
+    "currentReleaseDate": "2023-05-09T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Jul",
+    "documentTitle": "July 2022 Security Updates",
+    "id": "2022-Jul",
+    "initialReleaseDate": "2022-07-12T07:00:00Z"
+  },
+  {
+    "alias": "2022-Jun",
+    "currentReleaseDate": "2022-09-20T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Jun",
+    "documentTitle": "June 2022 Security Updates",
+    "id": "2022-Jun",
+    "initialReleaseDate": "2022-06-14T07:00:00Z"
+  },
+  {
+    "alias": "2022-Mar",
+    "currentReleaseDate": "2023-04-19T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Mar",
+    "documentTitle": "March 2022 Security Updates",
+    "id": "2022-Mar",
+    "initialReleaseDate": "2022-03-08T08:00:00Z"
+  },
+  {
+    "alias": "2022-May",
+    "currentReleaseDate": "2023-04-11T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-May",
+    "documentTitle": "May 2022 Security Updates",
+    "id": "2022-May",
+    "initialReleaseDate": "2022-05-10T08:00:00Z"
+  },
+  {
+    "alias": "2022-Nov",
+    "currentReleaseDate": "2023-07-18T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Nov",
+    "documentTitle": "November 2022 Security Updates",
+    "id": "2022-Nov",
+    "initialReleaseDate": "2022-11-08T08:00:00Z"
+  },
+  {
+    "alias": "2022-Oct",
+    "currentReleaseDate": "2022-10-30T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Oct",
+    "documentTitle": "October 2022 Security Updates",
+    "id": "2022-Oct",
+    "initialReleaseDate": "2022-10-11T07:00:00Z"
+  },
+  {
+    "alias": "2022-Sep",
+    "currentReleaseDate": "2023-05-09T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2022-Sep",
+    "documentTitle": "September 2022 Security Updates",
+    "id": "2022-Sep",
+    "initialReleaseDate": "2022-09-13T07:00:00Z"
+  },
+  {
+    "alias": "2023-Apr",
+    "currentReleaseDate": "2023-08-22T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Apr",
+    "documentTitle": "April 2023 Security Updates",
+    "id": "2023-Apr",
+    "initialReleaseDate": "2023-04-11T07:00:00Z"
+  },
+  {
+    "alias": "2023-Aug",
+    "currentReleaseDate": "2023-08-20T00:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Aug",
+    "documentTitle": "August 2023 Security Updates",
+    "id": "2023-Aug",
+    "initialReleaseDate": "2023-08-08T07:00:00Z"
+  },
+  {
+    "alias": "2023-Feb",
+    "currentReleaseDate": "2023-08-22T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Feb",
+    "documentTitle": "February 2023 Security Updates",
+    "id": "2023-Feb",
+    "initialReleaseDate": "2023-02-14T08:00:00Z"
+  },
+  {
+    "alias": "2023-Jan",
+    "currentReleaseDate": "2023-07-21T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Jan",
+    "documentTitle": "January 2023 Security Updates",
+    "id": "2023-Jan",
+    "initialReleaseDate": "2023-01-10T08:00:00Z"
+  },
+  {
+    "alias": "2023-Jul",
+    "currentReleaseDate": "2023-08-24T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Jul",
+    "documentTitle": "July 2023 Security Updates",
+    "id": "2023-Jul",
+    "initialReleaseDate": "2023-07-11T07:00:00Z"
+  },
+  {
+    "alias": "2023-Jun",
+    "currentReleaseDate": "2023-08-21T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Jun",
+    "documentTitle": "June 2023 Security Updates",
+    "id": "2023-Jun",
+    "initialReleaseDate": "2023-06-13T07:00:00Z"
+  },
+  {
+    "alias": "2023-Mar",
+    "currentReleaseDate": "2023-08-01T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-Mar",
+    "documentTitle": "March 2023 Security Updates",
+    "id": "2023-Mar",
+    "initialReleaseDate": "2023-03-14T07:00:00Z"
+  },
+  {
+    "alias": "2023-May",
+    "currentReleaseDate": "2023-07-21T07:00:00Z",
+    "cvrfUrl": "https://api.msrc.microsoft.com/cvrf/v2.0/document/2023-May",
+    "documentTitle": "May 2023 Security Updates",
+    "id": "2023-May",
+    "initialReleaseDate": "2023-05-09T07:00:00Z"
+  }
+]
