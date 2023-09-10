@@ -11,6 +11,8 @@ services:
       # - ./data/db:/data/db
     env_file: [./mongodb/.env]
     command: [--auth]
+  # worker:
+  #   image: react-dotnet-worker:0.1.0
   api:
     image: react-dotnet-api:1.0.0
     container_name: api
@@ -19,6 +21,28 @@ services:
     command: dotnet run
     depends_on:
       - mongo
+      # - worker
+  ui:
+    image: node:18.12.1
+    container_name: ui
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend:/app
+    working_dir: /app
+    env_file:
+      - ./frontend/.env
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
+    # restart: always
+    stdin_open: true
+    command: bash -c "npm install && npm start" ./frontend/run.sh
+    depends_on:
+      - mongo
+      - api
 
 volumes:
   mongo:
