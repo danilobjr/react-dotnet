@@ -1,7 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Page, PageContent } from '@components/ui/page'
 import { useSecurityUpdatesGetAll } from '@hooks/http/use-security-updates-get-all'
-import { SecurityUpdate } from '@services/http/repositories/security-updates-repository'
 import { Filters, FormSchema as FiltersFormSchema } from './filters'
 import { filterData } from './page-utils'
 import { Table } from './table'
@@ -26,20 +25,7 @@ export const SeverityUpdatesPage = () => {
       return data
     }
 
-    console.log(data)
-
-    // const mappedData: SecurityUpdate[] = (data as any)?.value?.map(
-    //   (d: any) => ({
-    //     currentReleaseDate: d.CurrentReleaseDate,
-    //     cvrfUrl: d.CvrfUrl,
-    //     documentTitle: d.DocumentTitle,
-    //     id: d.ID,
-    //     initialReleaseDate: d.InitialReleaseDate,
-    //   }),
-    // )
-
-    // return filterData(filters)(mappedData)
-    return []
+    return filterData(filters)(data)
   }, [data, filters])
 
   return isLoading ? (
