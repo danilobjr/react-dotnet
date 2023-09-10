@@ -13,7 +13,7 @@ public class DatabaseService
     {
         // TODO treat exceptions: NotSupportedException and MongoCOnnectionException
         // TODO use env vars
-        var mongoClient = new MongoClient("mongodb://root:rootpass@localhost:27017/?authSource=admin");
+        var mongoClient = new MongoClient("mongodb://root:rootpass@mongo:27017/?authSource=admin");
 
         // TODO use env vars
         var mongoDatabase = mongoClient.GetDatabase("Db");
