@@ -1,11 +1,21 @@
 using Services;
 
+// TODO should be a constant
+const string ALLOW_ORIGINS_NAME = "ALL_ORIGINS";
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-// builder.Services.Configure<DatabaseSettings>(
-//     builder.Configuration.GetSection("Database")
-// );
+builder.Services.AddCors(options => 
+{
+    options.AddPolicy(
+        name: ALLOW_ORIGINS_NAME,
+        policy => 
+        {
+            policy.WithOrigins("*");
+        }
+    );
+});
 
 builder.Services.AddSingleton<DatabaseService>();
 builder.Services.AddSingleton<ApiService>();
@@ -25,6 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(ALLOW_ORIGINS_NAME);
 
 app.UseAuthorization();
 
