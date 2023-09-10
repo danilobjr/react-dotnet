@@ -11,27 +11,6 @@ services:
       # - ./data/db:/data/db
     env_file: [./mongodb/.env]
     command: [--auth]
-  # api:
-  #   image: mcr.microsoft.com/dotnet/samples:aspnetapp
-  #   container_name: api
-  #   ports:
-  #     # - 80
-  #     # - 443
-  #     - 9000:80
-  #   environment:
-  #     - ASPNETCORE_ENVIRONMENT=Development
-  #     - ASPNETCORE_URLS=http://+:9000
-  #     #   - ASPNETCORE_URLS=https://+:443;http://+:80
-  #     #   - ASPNETCORE_Kestrel__Certificates__Default__Password=password
-  #     #   - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
-  #   working_dir: /app
-  #   volumes:
-  #     # - ~/.aspnet/https:/https:ro
-  #     # FIXME should be ./backend/Api. How to deal with multiple projects solution and a specific volume?
-  #     - ./backend/Api:/app
-  #   command: bash -c "dotnet run"
-  #   depends_on:
-  #     - mongo
   api:
     image: react-dotnet-api:1.0.0
     container_name: api
