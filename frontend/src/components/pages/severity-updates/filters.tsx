@@ -1,6 +1,7 @@
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import * as z from 'zod'
+import { Button } from '@components/ui/button'
 import { InputDateController } from '@components/ui/inputs/controller-inputs/input-date-controller'
 import { InputTextController } from '@components/ui/inputs/controller-inputs/input-text-controller'
 import { setEndOfDayHours } from '@utils/date'
@@ -42,61 +43,80 @@ export const Filters = ({ onSubmit }: FiltersProps) => {
     },
   })
 
+  const handleResetButtonClick = () => reset()
+
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <InputTextController<FormSchema> control={control} label="ID" name="id" />
+    <form className="flex flex-col gap-6" onSubmit={handleSubmit(onSubmit)}>
+      <div className="flex gap-6">
+        <InputTextController<FormSchema>
+          control={control}
+          label="ID"
+          name="id"
+        />
 
-      <InputTextController<FormSchema>
-        control={control}
-        label="Document Title"
-        name="documentTitle"
-      />
+        <InputTextController<FormSchema>
+          control={control}
+          label="Document Title"
+          name="documentTitle"
+        />
+      </div>
 
-      <InputDateController<FormSchema>
-        control={control}
-        label="Initial Release Date (from)"
-        name="initialReleaseDateFrom"
-        selectsStart
-        startDate={watch('initialReleaseDateFrom')}
-        endDate={watch('initialReleaseDateTo')}
-      />
+      <div className="flex items-end justify-between">
+        <div className="flex items-end gap-6">
+          <InputDateController<FormSchema>
+            control={control}
+            label="Initial Release Date"
+            name="initialReleaseDateFrom"
+            placeholder="From"
+            selectsStart
+            startDate={watch('initialReleaseDateFrom')}
+            endDate={watch('initialReleaseDateTo')}
+          />
 
-      {/* FIXME should set value to null when start date greater then end date */}
-      <InputDateController<FormSchema>
-        control={control}
-        label="Initial Release Date (to)"
-        name="initialReleaseDateTo"
-        selectsEnd
-        startDate={watch('initialReleaseDateFrom')}
-        endDate={watch('initialReleaseDateTo')}
-        minDate={watch('initialReleaseDateFrom')}
-        normalize={ifNotNullSetEndOfDayHours}
-      />
+          {/* FIXME should set value to null when start date greater then end date */}
+          <InputDateController<FormSchema>
+            control={control}
+            name="initialReleaseDateTo"
+            placeholder="To"
+            selectsEnd
+            startDate={watch('initialReleaseDateFrom')}
+            endDate={watch('initialReleaseDateTo')}
+            minDate={watch('initialReleaseDateFrom')}
+            normalize={ifNotNullSetEndOfDayHours}
+          />
 
-      <InputDateController<FormSchema>
-        control={control}
-        label="Current Release Date (from)"
-        name="currentReleaseDateFrom"
-        selectsStart
-        startDate={watch('currentReleaseDateFrom')}
-        endDate={watch('currentReleaseDateTo')}
-      />
+          <InputDateController<FormSchema>
+            control={control}
+            label="Current Release Date"
+            name="currentReleaseDateFrom"
+            placeholder="From"
+            selectsStart
+            startDate={watch('currentReleaseDateFrom')}
+            endDate={watch('currentReleaseDateTo')}
+          />
 
-      {/* FIXME should set value to null when start date greater then end date */}
-      <InputDateController<FormSchema>
-        control={control}
-        label="Current Release Date (to)"
-        name="currentReleaseDateTo"
-        selectsEnd
-        startDate={watch('currentReleaseDateFrom')}
-        endDate={watch('currentReleaseDateTo')}
-        minDate={watch('currentReleaseDateFrom')}
-        normalize={ifNotNullSetEndOfDayHours}
-      />
+          {/* FIXME should set value to null when start date greater then end date */}
+          <InputDateController<FormSchema>
+            control={control}
+            // label="Current Release Date (to)"
+            name="currentReleaseDateTo"
+            placeholder="To"
+            selectsEnd
+            startDate={watch('currentReleaseDateFrom')}
+            endDate={watch('currentReleaseDateTo')}
+            minDate={watch('currentReleaseDateFrom')}
+            normalize={ifNotNullSetEndOfDayHours}
+          />
+        </div>
 
-      {/* TODO style buttons */}
-      <button>Filtrar</button>
-      <button onClick={() => reset()}>Limpar</button>
+        <div className="flex gap-6">
+          <Button intent="primary" icon="search">
+            Pesquisar
+          </Button>
+
+          <Button onClick={handleResetButtonClick}>Limpar</Button>
+        </div>
+      </div>
     </form>
   )
 }
