@@ -3,7 +3,7 @@ import { Page, PageContent } from '@components/ui/page'
 import { useSecurityUpdatesGetAll } from '@hooks/http/use-security-updates-get-all'
 import { Filters, FormSchema as FiltersFormSchema } from './filters'
 import { filterData } from './page-utils'
-import { Table } from './table'
+import { SecurityUpdatesTable } from './security-updates-table'
 
 export const SeverityUpdatesPage = () => {
   const { data, isLoading } = useSecurityUpdatesGetAll()
@@ -32,9 +32,10 @@ export const SeverityUpdatesPage = () => {
     <span>Carregando</span>
   ) : (
     <Page>
-      <PageContent>
+      <PageContent className="flex flex-col gap-6">
         <Filters onSubmit={handleFiltersFormSubmission} />
-        <Table data={filteredData as any} />
+        <hr />
+        <SecurityUpdatesTable data={filteredData as any} />
       </PageContent>
     </Page>
   )

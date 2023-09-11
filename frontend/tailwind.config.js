@@ -8,6 +8,7 @@ module.exports = {
         page: '#f8f8f8',
         'page-content': '#f3f3f3',
         'input-border': '#d5d5d5',
+        'table-border': '#d5d5d5',
       },
     },
   },

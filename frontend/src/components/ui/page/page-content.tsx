@@ -1,5 +1,10 @@
-import type { PropsWithChildren } from 'react'
+import type { ComponentPropsWithoutRef } from 'react'
+import { twMerge } from 'tailwind-merge'
 
-export const PageContent = ({ children }: PropsWithChildren) => {
-  return <div className="bg-page-content p-6">{children}</div>
+type PageContentProps = ComponentPropsWithoutRef<'div'>
+
+export const PageContent = ({ className, children }: PageContentProps) => {
+  return (
+    <div className={twMerge('bg-page-content p-6', className)}>{children}</div>
+  )
 }
