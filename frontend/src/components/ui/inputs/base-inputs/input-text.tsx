@@ -22,7 +22,7 @@ export const InputText = forwardRef(
         <input
           // TODO reuse common classes between components
           // TODO use tailwind-merge
-          className="border-input-border border px-2 py-1"
+          className="h-10 border border-input-border px-2"
           type="text"
           onChange={handleChange}
           {...otherProps}

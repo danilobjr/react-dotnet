@@ -71,8 +71,7 @@ export const InputDate = forwardRef(
         <DatePicker
           // TODO reuse common classes between components
           // TODO use tailwind-merge
-          // className="border-input-border border px-2 py-1"
-          className="w-full border border-input-border px-2 py-1"
+          className="h-10 w-full border border-input-border px-2"
           dateFormat="dd/MM/yyyy"
           locale="pt-br"
           placeholderText={placeholder}
