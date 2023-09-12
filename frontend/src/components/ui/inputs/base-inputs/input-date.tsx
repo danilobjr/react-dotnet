@@ -16,7 +16,7 @@ import { BaseInputProp } from './types/base-input-props'
 registerLocale('pt-br', ptBr)
 
 const currentYear = new Date().getFullYear()
-const years = range(1990, currentYear)
+const years = range(1990, currentYear + 1)
 const months = [
   'Janeiro',
   'Fevereiro',
