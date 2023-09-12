@@ -5,10 +5,7 @@ export const Label = ({
   children = null,
   ...otherProps
 }: ComponentPropsWithoutRef<'span'>) => (
-  <label
-    className="flex select-none flex-col gap-1 text-neutral-900"
-    {...otherProps}
-  >
+  <label className="flex select-none flex-col text-neutral-900" {...otherProps}>
     {children}
   </label>
 )
