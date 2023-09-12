@@ -1,4 +1,4 @@
-import { SeverityUpdatesPage } from './pages/severity-updates/page'
+import { SeverityUpdatesPage } from './pages/security-updates/security-updates-page'
 
 // FIXME set correct colors
 export function App() {
