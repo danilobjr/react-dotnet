@@ -20,8 +20,7 @@ public class Job : BackgroundService
             _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
 
             await Task.Run(() => _refreshSecurityUpdatesOnDatabase.Run());
-            // TODO set 5 minutes
-            await Task.Delay(1000 * 5, stoppingToken);
+            await Task.Delay(1000 * 60 * 5, stoppingToken);
         }
     }
 }
