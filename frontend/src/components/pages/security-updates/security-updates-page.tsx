@@ -1,8 +1,11 @@
 import { useMemo, useState } from 'react'
 import { Page, PageContent } from '@components/ui/page'
 import { useSecurityUpdatesGetAll } from '@hooks/http/use-security-updates-get-all'
-import { Filters, FormSchema as FiltersFormSchema } from './filters'
 import { filterData } from './page-utils'
+import {
+  Filters,
+  FormSchema as FiltersFormSchema,
+} from './security-updates-filters'
 import { SecurityUpdatesTable } from './security-updates-table'
 
 export const SeverityUpdatesPage = () => {

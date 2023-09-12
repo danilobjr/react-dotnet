@@ -15,7 +15,7 @@ import toLower from 'ramda/src/toLower'
 import trim from 'ramda/src/trim'
 import when from 'ramda/src/when'
 import where from 'ramda/src/where'
-import { FormSchema as FiltersFormSchema } from './filters'
+import { FormSchema as FiltersFormSchema } from './security-updates-filters'
 
 // utils
 const isPropValueNotEmptyString = (propName: string) =>
