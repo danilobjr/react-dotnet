@@ -1,21 +1,31 @@
 # react-dotnet
 
+### Table of content
+
+- [Projects](#projects)
+- [Requirements](#requirements)
+- [Running](#running)
+- [Architecture](#architecture)
+- [Improvements](#improvements)
+- [Final Thoughts](#final-thoughts)
+
 ### Projects
 
 This repository has the following:
 
-- **Database**: a MongoDB database
+- **Database**
+  - description: : a MongoDB database
   - location: ./mongodb
   - credentials:
     - username: `root`
     - password: `rootpass`
 - **UI**: a React.js application
   - location: ./frontend
-- **Api**: a AspNet Core Webapi application
+- **Api**: an AspNet Core Webapi application
   - location: ./backend/Api
-  - It has an **GET /updates** endpoint that retrieves all the data from **SecurityUpdates** collection. This collection is inside a database named **Db**
-- **worker**: a Aspnet Core application
-  - It runs a worker each 5 minutes. The worker calls a class that refreshs the database with new data from https://api.msrc.microsoft.com/cvrf/v2.0/updates
+  - It has an **GET /updates** endpoint that retrieves all the data from **SecurityUpdates** collection. This collection is inside a database named **Db** which is inside MongoDB
+- **worker**: an Aspnet Core application
+  - It runs a worker that calls a business class that refreshs the database with new data from https://api.msrc.microsoft.com/cvrf/v2.0/updates
 
 ### Requirements
 
@@ -73,16 +83,28 @@ mongodb://root:rootpass@localhost:27017/?authMechanism=DEFAULT&authSource=admin
 
 All data related to this project is inside a database called **Db**. Inside of it, there's a collection called **SecurityUpdates**
 
-### Architecture
-
-TODO
-
-### Missing improvements
+### Improvements
 
 Unfortunately, I had no time to complete these:
 
+On the backend side:
+
 - Layers have some crap dependencies. This is not good for isolated testing
-- There's no interface contract between layers
-- There's some annoying casting (`as any`) in Typescript code, in UI
-- There's no exception treatment
+- Missing interface contract between layers
+- Missing exception treatment
+- Missing env vars usage (appsettings.json)
 - After 8 yers without development experience with Microsoft technologies, my .NET skills are absolute rusty! =/
+
+Frontend side:
+
+- There's some annoying casting (`as any`) in Typescript code, in UI
+- There's more room to write a much more type-safe code. For example: table data, util functions, etc.
+- A custom InputDateRange component could be created
+
+Docker:
+
+- I've tried to dockerize everything and almost did it, but I'd need more time to make everything work using docker compose
+
+### Final thoughts
+
+I'm open for any recommendations to improve my code. Just let me know
